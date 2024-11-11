@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()) {
             case R.id.btnAgregar:
                 String texto = user.getText().toString().trim();
-                if (!texto.isEmpty()) { //
+                if (!texto.isEmpty()) { //hola
                     mLista.add(texto);
                     user.setText("");
                     //Se crea un ArrayList para mostrar el contenido
